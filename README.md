@@ -37,22 +37,6 @@ Creators can take raw footage or ordinary photography and instantly imbue it wit
 
 ---
 
-## Key Features
-
-- **Multi-Style Support**  
-  Includes pre-trained styles such as Cyberpunk, War, and IMAX.
-
-- **Hybrid Architecture**  
-  Utilizes a TransformerNet for fast inference and VGG16 plus CLIP for robust training guidance.
-
-- **CLIP-Guided Training**  
-  Leverages OpenAI’s CLIP model to enforce style consistency using text-based prompts.
-
-- **Efficient Inference**  
-  Designed to run quickly on standard consumer hardware.
-
----
-
 ## Methodology
 
 The system is built upon a combination of established and novel techniques.
