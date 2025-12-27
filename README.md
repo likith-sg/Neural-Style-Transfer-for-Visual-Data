@@ -110,7 +110,7 @@ Use the **Training.ipynb** notebook.
 
 ### Custom Dataset from Movie Trailers
 
-![Neural Style Transfer Result](Result/DatsetCard.png)
+![Neural Style Transfer Result](Result/Dataset Card.png)
 
 ---
 
