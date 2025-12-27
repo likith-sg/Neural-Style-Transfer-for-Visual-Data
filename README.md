@@ -1,4 +1,4 @@
-# Neural Style Transfer for Visual Data [Paper](NSTVD.pdf)
+# Neural Style Transfer for Visual Data [[Paper](NSTVD.pdf)]
 
 **Neural Style Transfer for Visual Data** is a lightweight, multi-style transfer system designed to transform visual content into artistically stylized outputs. By separating and recombining image content and style features using Convolutional Neural Networks (CNNs) and CLIP guidance, this project aims to make high-quality style transfer accessible on consumer-grade hardware.
 
