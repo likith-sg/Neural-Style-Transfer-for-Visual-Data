@@ -1,0 +1,58 @@
+{
+    "job_name": "War",
+    "device": "cuda",
+    "timestamp_start_utc": "2025-10-29 05:20:24 UTC",
+    "hyperparameters": {
+        "epochs": 5,
+        "batch_size": 4,
+        "image_size": 256,
+        "content_weight": 100000.0,
+        "style_weight": 10000000000.0,
+        "clip_weight": 1000.0,
+        "learning_rate": 0.001
+    },
+    "paths": {
+        "zip_path": "/content/drive/My Drive/NSTV_FDL_Project/Dataset/War.zip",
+        "model_output_path": "/content/drive/My Drive/NSTV_FDL_Project/Trained_Models/War_net.pth"
+    },
+    "prompt": "cinematic film still from a war drama, gritty realism, desaturated colors, high contrast, intense atmosphere, film grain, masterpiece, sharp focus",
+    "epoch_logs": [
+        {
+            "epoch": 1,
+            "avg_content_loss": 4.738531,
+            "avg_style_loss": 2.3e-05,
+            "avg_clip_loss": 0.794457,
+            "duration_seconds": 326.05
+        },
+        {
+            "epoch": 2,
+            "avg_content_loss": 3.628319,
+            "avg_style_loss": 1.4e-05,
+            "avg_clip_loss": 0.796414,
+            "duration_seconds": 327.18
+        },
+        {
+            "epoch": 3,
+            "avg_content_loss": 3.3277,
+            "avg_style_loss": 1.4e-05,
+            "avg_clip_loss": 0.794702,
+            "duration_seconds": 327.84
+        },
+        {
+            "epoch": 4,
+            "avg_content_loss": 3.178819,
+            "avg_style_loss": 1.4e-05,
+            "avg_clip_loss": 0.794822,
+            "duration_seconds": 327.96
+        },
+        {
+            "epoch": 5,
+            "avg_content_loss": 3.096571,
+            "avg_style_loss": 1.3e-05,
+            "avg_clip_loss": 0.794433,
+            "duration_seconds": 327.64
+        }
+    ],
+    "total_training_time_seconds": 1639.78,
+    "timestamp_end_utc": "2025-10-29 05:47:44 UTC"
+}

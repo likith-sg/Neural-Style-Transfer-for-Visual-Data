@@ -1,0 +1,58 @@
+{
+    "job_name": "IMAX",
+    "device": "cuda",
+    "timestamp_start_utc": "2025-10-29 05:47:46 UTC",
+    "hyperparameters": {
+        "epochs": 5,
+        "batch_size": 4,
+        "image_size": 256,
+        "content_weight": 100000.0,
+        "style_weight": 10000000000.0,
+        "clip_weight": 1000.0,
+        "learning_rate": 0.001
+    },
+    "paths": {
+        "zip_path": "/content/drive/My Drive/NSTV_FDL_Project/Dataset/IMAX.zip",
+        "model_output_path": "/content/drive/My Drive/NSTV_FDL_Project/Trained_Models/IMAX_net.pth"
+    },
+    "prompt": "A cinematic photo in the Hollywood IMAX style, high detail, epic scale, sharp focus",
+    "epoch_logs": [
+        {
+            "epoch": 1,
+            "avg_content_loss": 3.586394,
+            "avg_style_loss": 1.7e-05,
+            "avg_clip_loss": 0.761007,
+            "duration_seconds": 341.37
+        },
+        {
+            "epoch": 2,
+            "avg_content_loss": 2.73684,
+            "avg_style_loss": 1.3e-05,
+            "avg_clip_loss": 0.766713,
+            "duration_seconds": 342.5
+        },
+        {
+            "epoch": 3,
+            "avg_content_loss": 2.56209,
+            "avg_style_loss": 1.2e-05,
+            "avg_clip_loss": 0.76896,
+            "duration_seconds": 345.01
+        },
+        {
+            "epoch": 4,
+            "avg_content_loss": 2.482579,
+            "avg_style_loss": 1.2e-05,
+            "avg_clip_loss": 0.770055,
+            "duration_seconds": 344.65
+        },
+        {
+            "epoch": 5,
+            "avg_content_loss": 2.427709,
+            "avg_style_loss": 1.2e-05,
+            "avg_clip_loss": 0.7705,
+            "duration_seconds": 343.61
+        }
+    ],
+    "total_training_time_seconds": 1718.81,
+    "timestamp_end_utc": "2025-10-29 06:16:26 UTC"
+}

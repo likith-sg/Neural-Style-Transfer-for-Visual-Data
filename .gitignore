@@ -1,0 +1,10 @@
+# Ignore dataset
+FDL_Dataset/
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore cookies / auth files
+cookies/
+cookies.txt

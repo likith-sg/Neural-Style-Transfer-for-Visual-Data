@@ -1,0 +1,58 @@
+{
+    "job_name": "Cyberpunk_XL",
+    "device": "cuda",
+    "timestamp_start_utc": "2025-10-29 06:16:29 UTC",
+    "hyperparameters": {
+        "epochs": 5,
+        "batch_size": 4,
+        "image_size": 256,
+        "content_weight": 100000.0,
+        "style_weight": 10000000000.0,
+        "clip_weight": 1000.0,
+        "learning_rate": 0.001
+    },
+    "paths": {
+        "zip_path": "/content/drive/My Drive/NSTV_FDL_Project/Dataset/Cyberpunk_XL.zip",
+        "model_output_path": "/content/drive/My Drive/NSTV_FDL_Project/Trained_Models/Cyberpunk_XL_net.pth"
+    },
+    "prompt": "A cinematic photo in the cyberpunk style, masterpiece, neon lights, high contrast, gritty realism, futuristic",
+    "epoch_logs": [
+        {
+            "epoch": 1,
+            "avg_content_loss": 4.061131,
+            "avg_style_loss": 1.8e-05,
+            "avg_clip_loss": 0.74132,
+            "duration_seconds": 349.63
+        },
+        {
+            "epoch": 2,
+            "avg_content_loss": 2.869125,
+            "avg_style_loss": 1.2e-05,
+            "avg_clip_loss": 0.74481,
+            "duration_seconds": 349.62
+        },
+        {
+            "epoch": 3,
+            "avg_content_loss": 2.606445,
+            "avg_style_loss": 1.1e-05,
+            "avg_clip_loss": 0.745427,
+            "duration_seconds": 349.72
+        },
+        {
+            "epoch": 4,
+            "avg_content_loss": 2.483784,
+            "avg_style_loss": 1.1e-05,
+            "avg_clip_loss": 0.746157,
+            "duration_seconds": 349.56
+        },
+        {
+            "epoch": 5,
+            "avg_content_loss": 2.412203,
+            "avg_style_loss": 1e-05,
+            "avg_clip_loss": 0.746973,
+            "duration_seconds": 349.48
+        }
+    ],
+    "total_training_time_seconds": 1750.68,
+    "timestamp_end_utc": "2025-10-29 06:45:40 UTC"
+}

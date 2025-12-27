@@ -1,0 +1,58 @@
+{
+    "job_name": "Cyberpunk_Mini",
+    "device": "cuda",
+    "timestamp_start_utc": "2025-10-29 06:45:42 UTC",
+    "hyperparameters": {
+        "epochs": 5,
+        "batch_size": 4,
+        "image_size": 256,
+        "content_weight": 100000.0,
+        "style_weight": 10000000000.0,
+        "clip_weight": 1000.0,
+        "learning_rate": 0.001
+    },
+    "paths": {
+        "zip_path": "/content/drive/My Drive/NSTV_FDL_Project/Dataset/Cyberpunk_Mini.zip",
+        "model_output_path": "/content/drive/My Drive/NSTV_FDL_Project/Trained_Models/Cyberpunk_Mini_net.pth"
+    },
+    "prompt": "A cinematic photo in the cyberpunk style, masterpiece",
+    "epoch_logs": [
+        {
+            "epoch": 1,
+            "avg_content_loss": 3.861683,
+            "avg_style_loss": 1e-05,
+            "avg_clip_loss": 0.760684,
+            "duration_seconds": 351.9
+        },
+        {
+            "epoch": 2,
+            "avg_content_loss": 3.125542,
+            "avg_style_loss": 1e-05,
+            "avg_clip_loss": 0.767587,
+            "duration_seconds": 351.45
+        },
+        {
+            "epoch": 3,
+            "avg_content_loss": 2.987206,
+            "avg_style_loss": 1e-05,
+            "avg_clip_loss": 0.768401,
+            "duration_seconds": 355.62
+        },
+        {
+            "epoch": 4,
+            "avg_content_loss": 2.922767,
+            "avg_style_loss": 1e-05,
+            "avg_clip_loss": 0.768846,
+            "duration_seconds": 353.47
+        },
+        {
+            "epoch": 5,
+            "avg_content_loss": 2.879801,
+            "avg_style_loss": 1e-05,
+            "avg_clip_loss": 0.769303,
+            "duration_seconds": 353.65
+        }
+    ],
+    "total_training_time_seconds": 1767.58,
+    "timestamp_end_utc": "2025-10-29 07:15:11 UTC"
+}
