@@ -101,7 +101,7 @@ Use the **Inference.ipynb** notebook.
 
 ### Example Result
 
-![Neural Style Transfer Result](Result/result.png)
+![Neural Style Transfer Result](Result/Result.png)
 
 ---
 
